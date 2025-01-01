@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess</title>
+    <style>
+      body {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      canvas {
+        border: 3px double black;
+      }
+
+      nav {
+        margin-left: 20px; /* Canvas'tan biraz uzaklaştırır */
+        width: 200px;
+        border: 1px solid black;
+        padding: 0%;
+      }
+      nav ul {
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+      }
+      nav ul li {
+        background-color: #ecd6b4;
+        border: 1px solid black;
+      }
+      nav ul li:nth-child(2n) {
+        background-color: #b48664;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <nav>
+      <ul>
+        <li>Notasyon</li>
+      </ul>
+    </nav>
+    <script src="./js.js"></script>
+  </body>
+</html>
